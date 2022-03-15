@@ -1,0 +1,20 @@
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.12
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.0.1
+model_uuid: 990c371f5bbb4997bb20c4e9175b1424
+signature:
+  inputs: '[{"name": "CODE_GENDER", "type": "integer"}, {"name": "CNT_CHILDREN", "type":
+    "long"}, {"name": "AMT_INCOME_TOTAL", "type": "double"}, {"name": "AMT_CREDIT",
+    "type": "double"}, {"name": "REGION_POPULATION_RELATIVE", "type": "double"}, {"name":
+    "EXT_SOURCE_3", "type": "double"}, {"name": "CREDIT_TERM", "type": "double"},
+    {"name": "YEARS_EMPLOYED", "type": "double"}, {"name": "YEARS_REGISTRATION", "type":
+    "double"}, {"name": "YEARS_ID_PUBLISH", "type": "double"}]'
+  outputs: '[{"type": "long"}]'
+utc_time_created: '2022-03-12 20:42:34.921407'
